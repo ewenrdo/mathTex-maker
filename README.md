@@ -12,7 +12,7 @@
 3. Utilisez les commandes et environnements fournis par le package pour créer vos documents mathématiques.
 
 
-## Dépendances
+## Dépendances
 Ce package requiert les dépendances LaTeX suivantes _(généralement incluses dans les distributions modernes comme TeX Live ou MiKTeX)_ :
 
 - xcolor, tcolorbox, ifthen
@@ -21,7 +21,7 @@ Ce package requiert les dépendances LaTeX suivantes _(généralement incluses d
 - listings, sectsty
 - helvet, fontenc
 
-## Licence
+## Licence
 
 _cf. [LICENSE](LICENSE)_
 
