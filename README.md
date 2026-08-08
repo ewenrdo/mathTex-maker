@@ -1,5 +1,12 @@
 # mathTex-maker
 
+> Un package LaTeX moderne et épuré conçu pour simplifier la rédaction de polycopiés de cours et de feuilles d'exercices en mathématiques.
+
+## Fonctionnalités
+
+- Création de polycopiés de cours et d'exercices avec un style uniforme et professionnel.
+- Commandes et environnements personnalisés pour les définitions, théorèmes, exemples, exercices, etc. (cf. [leçons](examples/lessons/sample.tex) et [exercices](examples/exercises/sample.tex)).
+
 ## Utilisation
 
 1. Placez le fichier `mathtex.sty` dans le dossier de votre projet LaTeX.
