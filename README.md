@@ -2,8 +2,8 @@
 
 ## Utilisation
 
-1. Place le fichier `mathtex.sty` dans le dossier de ton projet LaTeX.
-2. Dans le préambule de ton document LaTeX, ajoute la ligne suivante pour inclure le package :
+1. Placez le fichier `mathtex.sty` dans le dossier de votre projet LaTeX.
+2. Au début de votre document LaTeX, ajoute la ligne suivante pour inclure le package :
 
 ```latex
 \usepackage{mathtex}
