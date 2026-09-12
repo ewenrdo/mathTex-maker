@@ -57,6 +57,16 @@
     top=5pt,
     bottom=5pt,
   },
+  tipStyle/.style={
+    colframe=success,
+    colback=white,
+    boxrule=0.5pt,
+    arc=0pt,
+    left=8pt,
+    right=8pt,
+    top=5pt,
+    bottom=5pt,
+  },
   warningStyle/.style={
     colframe=danger,
     colback=white,
@@ -127,6 +137,13 @@
 \newcommand{\method}[2]{%
   \begin{tcolorbox}[methodStyle]
     {\color{purple}\textbf{Méthode : #1}}%
+    \par\vspace{0.5em}#2
+  \end{tcolorbox}
+}
+% Conseil
+\newcommand{\tip}[2]{%
+  \begin{tcolorbox}[tipStyle]
+    {\color{success}\textbf{Astuce : #1}}%
     \par\vspace{0.5em}#2
   \end{tcolorbox}
 }
